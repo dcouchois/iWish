@@ -41,7 +41,7 @@ function getBreweryData(input) {
       console.log(obj)
       for (let i = 0; i < response.length; i++) {
         const brewery = response[i];
-        var sideBarChild = $("<li class='list-group-item d-flex justify-content-between align-items-center'>" + (parseInt(i) + 1) + "." + " Name: " + response[i].name + "<br>" + "Address: " + response[i].street + "<br>" + response[i].city + "<br>" + response[i].state + "<br>" + "<a href=" + response[i].website_url + ">" + response[i].website_url + "</a><br></li>");
+        var sideBarChild = $("<li class='list-group-item d-flex justify-content-between align-items-center'>" + (parseInt(i) + 1) + "." + " Name: " + response[i].name + "<br>" + "Address: " + response[i].street + "<br>" + response[i].city + ", " + response[i].state + "<br>" + "<a href=" + response[i].website_url + ">" + response[i].website_url + "</a><br></li>");
         var button = $("<button class='save-button' data.> Save </button>");
         button.click(function (event) {
           event.preventDefault();

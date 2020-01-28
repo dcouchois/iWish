@@ -39,7 +39,7 @@ html, body {
 #map {
     float: right;
     height: 60%;
-    width: 65%;
+    width: 60%;
     position: relative;
     margin-right: 2%;
     margin-bottom: 5%;
@@ -76,7 +76,7 @@ a:hover {
 /* Romans code */
 
 .list-group{
-    width: 30%;
+    width: 35%;
     font-family: 'Fredericka the Great', cursive;
     margin-top: 2%;
     margin-left: 2%;
